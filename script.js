@@ -31,7 +31,7 @@ function handleCellClick(e) {
 function endGame(draw) {
     if (draw) {
         statusMessage.innerText = 'Draw!';
-        swal('Draw, Please restar game')
+        swal('Draw, Please restart game')
     } else {
         statusMessage.innerText = `${currentPlayerClass.toUpperCase()} Wins!`;
         swal(` Congratulations Player  ${currentPlayerClass.toUpperCase()} Win`);
